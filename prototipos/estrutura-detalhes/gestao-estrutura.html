@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Humanograma - Gestão de Estrutura</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <div class="logo">
+        <span class="logo-title">HUMANOGRAMA</span>
+        <span class="logo-subtitle"><span class="logo-sp">SP</span>.GOV.BR</span>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#" class="nav-item">Início</a>
+      <a href="#" class="nav-item active">Gestão organizacional <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5"/></svg></a>
+      <a href="#" class="nav-item">Gestão de acessos</a>
+      <a href="#" class="nav-item">Histórico</a>
+      <a href="#" class="nav-item">Fale conosco</a>
+    </nav>
+    <div class="header-right">
+      <div class="logo-gov">
+        <span class="logo-sp-gov">SP</span>.GOV.BR
+      </div>
+      <div class="user-menu">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Avatar" class="user-avatar">
+        <span>Olá, <strong>Maria</strong></span>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 4.5L6 7.5L9 4.5" stroke="#FF161F" stroke-width="1.5"/></svg>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="#" class="breadcrumb-item">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 6L8 1.5L14 6V14H10V10H6V14H2V6Z" stroke="currentColor" stroke-width="1.5"/></svg>
+    </a>
+    <span class="breadcrumb-separator">›</span>
+    <span class="breadcrumb-current">Gestão de estrutura</span>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Page Title -->
+    <div class="page-title-row">
+      <a href="#" class="back-link">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2"/></svg>
+      </a>
+      <h1 class="page-title">Gestão de estrutura</h1>
+    </div>
+
+    <p class="page-description">Acompanhe sua estrutura e faça as edições desejadas</p>
+
+    <!-- Filter -->
+    <div class="filter-row">
+      <button class="btn btn-outline">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 4H14M4 8H12M6 12H10" stroke="currentColor" stroke-width="1.5"/></svg>
+        Filtrar
+      </button>
+    </div>
+
+    <!-- Tree Structure -->
+    <div class="tree">
+      <!-- Level 0 - Root -->
+      <div class="tree-item tree-item-root">
+        <button class="tree-toggle tree-toggle-expanded">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5"/></svg>
+        </button>
+        <a href="index.html" class="tree-content">
+          <div class="tree-info">
+            <span class="tree-name"><strong>Prefeitura Municipal de São Paulo</strong> <span class="tree-sigla">PMSP</span></span>
+            <div class="tree-meta">
+              <span>Cód <strong>000</strong></span>
+              <span class="tree-separator">|</span>
+              <span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="2" y="2" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.2"/><path d="M5 5H9M5 7H9M5 9H7" stroke="currentColor" stroke-width="1.2"/></svg>
+                <strong>1.045</strong> estruturas vinculadas
+              </span>
+              <span class="tree-separator">|</span>
+              <span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="4" r="2" stroke="currentColor" stroke-width="1.2"/><path d="M3 12C3 9.5 5 8 7 8C9 8 11 9.5 11 12" stroke="currentColor" stroke-width="1.2"/></svg>
+                <strong>21.232</strong> pessoas ativas
+              </span>
+            </div>
+          </div>
+        </a>
+        <button class="tree-menu-btn">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="3" r="1" fill="currentColor"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="8" cy="13" r="1" fill="currentColor"/></svg>
+        </button>
+      </div>
+
+      <!-- Level 1 -->
+      <div class="tree-children">
+        <div class="tree-item">
+          <button class="tree-toggle">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <a href="index.html" class="tree-content">
+            <div class="tree-info">
+              <span class="tree-name"><strong>Secretaria da Fazenda</strong> <span class="tree-sigla">SMF</span></span>
+              <div class="tree-meta">
+                <span>Cód <strong>1233</strong></span>
+                <span class="tree-separator">|</span>
+                <span>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="2" y="2" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.2"/><path d="M5 5H9M5 7H9M5 9H7" stroke="currentColor" stroke-width="1.2"/></svg>
+                  <strong>0</strong> estruturas vinculadas
+                </span>
+                <span class="tree-separator">|</span>
+                <span>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="4" r="2" stroke="currentColor" stroke-width="1.2"/><path d="M3 12C3 9.5 5 8 7 8C9 8 11 9.5 11 12" stroke="currentColor" stroke-width="1.2"/></svg>
+                  <strong>5.678</strong> pessoas ativas
+                </span>
+              </div>
+            </div>
+          </a>
+          <button class="tree-menu-btn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="3" r="1" fill="currentColor"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="8" cy="13" r="1" fill="currentColor"/></svg>
+          </button>
+        </div>
+
+        <div class="tree-item">
+          <button class="tree-toggle tree-toggle-expanded">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <a href="index.html" class="tree-content">
+            <div class="tree-info">
+              <span class="tree-name"><strong>Secretaria da Saúde</strong> <span class="tree-sigla">SMS</span></span>
+              <div class="tree-meta">
+                <span>Cód <strong>32543</strong></span>
+                <span class="tree-separator">|</span>
+                <span>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="2" y="2" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.2"/><path d="M5 5H9M5 7H9M5 9H7" stroke="currentColor" stroke-width="1.2"/></svg>
+                  <strong>4</strong> estruturas vinculadas
+                </span>
+                <span class="tree-separator">|</span>
+                <span>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="4" r="2" stroke="currentColor" stroke-width="1.2"/><path d="M3 12C3 9.5 5 8 7 8C9 8 11 9.5 11 12" stroke="currentColor" stroke-width="1.2"/></svg>
+                  <strong>3.456</strong> pessoas ativas
+                </span>
+              </div>
+            </div>
+          </a>
+          <button class="tree-menu-btn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="3" r="1" fill="currentColor"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="8" cy="13" r="1" fill="currentColor"/></svg>
+          </button>
+        </div>
+
+        <!-- Level 2 - Children of Secretaria da Saúde -->
+        <div class="tree-children">
+          <div class="tree-item">
+            <button class="tree-toggle tree-toggle-empty"></button>
+            <a href="index.html" class="tree-content">
+              <div class="tree-info">
+                <span class="tree-name"><strong>Diretoria de Projetos</strong> <span class="tree-sigla">DPR</span></span>
+                <div class="tree-meta">
+                  <span>Cód <strong>5678</strong></span>
+                  <span class="tree-separator">|</span>
+                  <span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="2" y="2" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.2"/><path d="M5 5H9M5 7H9M5 9H7" stroke="currentColor" stroke-width="1.2"/></svg>
+                    <strong>0</strong> estruturas vinculadas
+                  </span>
+                  <span class="tree-separator">|</span>
+                  <span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="4" r="2" stroke="currentColor" stroke-width="1.2"/><path d="M3 12C3 9.5 5 8 7 8C9 8 11 9.5 11 12" stroke="currentColor" stroke-width="1.2"/></svg>
+                    <strong>111</strong> pessoas ativas
+                  </span>
+                </div>
+              </div>
+            </a>
+            <button class="tree-menu-btn">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="3" r="1" fill="currentColor"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="8" cy="13" r="1" fill="currentColor"/></svg>
+            </button>
+          </div>
+
+          <div class="tree-item">
+            <button class="tree-toggle tree-toggle-expanded">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5"/></svg>
+            </button>
+            <a href="index.html" class="tree-content">
+              <div class="tree-info">
+                <span class="tree-name"><strong>Diretoria de Governança</strong> <span class="tree-sigla">DG</span></span>
+                <div class="tree-meta">
+                  <span>Cód <strong>2343</strong></span>
+                  <span class="tree-separator">|</span>
+                  <span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="2" y="2" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.2"/><path d="M5 5H9M5 7H9M5 9H7" stroke="currentColor" stroke-width="1.2"/></svg>
+                    <strong>1</strong> estrutura vinculada
+                  </span>
+                  <span class="tree-separator">|</span>
+                  <span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="4" r="2" stroke="currentColor" stroke-width="1.2"/><path d="M3 12C3 9.5 5 8 7 8C9 8 11 9.5 11 12" stroke="currentColor" stroke-width="1.2"/></svg>
+                    <strong>1</strong> pessoa ativa
+                  </span>
+                </div>
+              </div>
+            </a>
+            <button class="tree-menu-btn">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="3" r="1" fill="currentColor"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="8" cy="13" r="1" fill="currentColor"/></svg>
+            </button>
+          </div>
+
+          <!-- Level 3 -->
+          <div class="tree-children">
+            <div class="tree-item">
+              <button class="tree-toggle tree-toggle-empty"></button>
+              <a href="index.html" class="tree-content">
+                <div class="tree-info">
+                  <span class="tree-name"><strong>Gerência de Arrecadação</strong> <span class="tree-sigla">GAR</span></span>
+                  <div class="tree-meta">
+                    <span>Cód <strong>8436</strong></span>
+                    <span class="tree-separator">|</span>
+                    <span>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="2" y="2" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.2"/><path d="M5 5H9M5 7H9M5 9H7" stroke="currentColor" stroke-width="1.2"/></svg>
+                      <strong>0</strong> estruturas vinculadas
+                    </span>
+                    <span class="tree-separator">|</span>
+                    <span>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="4" r="2" stroke="currentColor" stroke-width="1.2"/><path d="M3 12C3 9.5 5 8 7 8C9 8 11 9.5 11 12" stroke="currentColor" stroke-width="1.2"/></svg>
+                      <strong>2.300</strong> pessoas ativas
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <button class="tree-menu-btn">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="3" r="1" fill="currentColor"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="8" cy="13" r="1" fill="currentColor"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="tree-item">
+            <button class="tree-toggle tree-toggle-empty"></button>
+            <a href="index.html" class="tree-content">
+              <div class="tree-info">
+                <span class="tree-name"><strong>Diretoria de Pessoal</strong> <span class="tree-sigla">DPE</span></span>
+                <div class="tree-meta">
+                  <span>Cód <strong>1332</strong></span>
+                  <span class="tree-separator">|</span>
+                  <span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="2" y="2" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.2"/><path d="M5 5H9M5 7H9M5 9H7" stroke="currentColor" stroke-width="1.2"/></svg>
+                    <strong>0</strong> estruturas vinculadas
+                  </span>
+                  <span class="tree-separator">|</span>
+                  <span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="4" r="2" stroke="currentColor" stroke-width="1.2"/><path d="M3 12C3 9.5 5 8 7 8C9 8 11 9.5 11 12" stroke="currentColor" stroke-width="1.2"/></svg>
+                    <strong>1.000</strong> pessoas ativas
+                  </span>
+                </div>
+              </div>
+            </a>
+            <button class="tree-menu-btn">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="3" r="1" fill="currentColor"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="8" cy="13" r="1" fill="currentColor"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="tree-item">
+          <button class="tree-toggle">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <a href="index.html" class="tree-content">
+            <div class="tree-info">
+              <span class="tree-name"><strong>Secretaria da Educação</strong> <span class="tree-sigla">SMEDU</span></span>
+              <div class="tree-meta">
+                <span>Cód <strong>6452</strong></span>
+                <span class="tree-separator">|</span>
+                <span>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="2" y="2" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.2"/><path d="M5 5H9M5 7H9M5 9H7" stroke="currentColor" stroke-width="1.2"/></svg>
+                  <strong>234</strong> estruturas vinculadas
+                </span>
+                <span class="tree-separator">|</span>
+                <span>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="4" r="2" stroke="currentColor" stroke-width="1.2"/><path d="M3 12C3 9.5 5 8 7 8C9 8 11 9.5 11 12" stroke="currentColor" stroke-width="1.2"/></svg>
+                  <strong>4.321</strong> pessoas ativas
+                </span>
+              </div>
+            </div>
+          </a>
+          <button class="tree-menu-btn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="3" r="1" fill="currentColor"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="8" cy="13" r="1" fill="currentColor"/></svg>
+          </button>
+        </div>
+
+        <div class="tree-item">
+          <button class="tree-toggle">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <a href="index.html" class="tree-content">
+            <div class="tree-info">
+              <span class="tree-name"><strong>Secretaria do Esporte</strong> <span class="tree-sigla">SME</span></span>
+              <div class="tree-meta">
+                <span>Cód <strong>6747</strong></span>
+                <span class="tree-separator">|</span>
+                <span>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="2" y="2" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.2"/><path d="M5 5H9M5 7H9M5 9H7" stroke="currentColor" stroke-width="1.2"/></svg>
+                  <strong>87</strong> estruturas vinculadas
+                </span>
+                <span class="tree-separator">|</span>
+                <span>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="4" r="2" stroke="currentColor" stroke-width="1.2"/><path d="M3 12C3 9.5 5 8 7 8C9 8 11 9.5 11 12" stroke="currentColor" stroke-width="1.2"/></svg>
+                  <strong>6.543</strong> pessoas ativas
+                </span>
+              </div>
+            </div>
+          </a>
+          <button class="tree-menu-btn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="3" r="1" fill="currentColor"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="8" cy="13" r="1" fill="currentColor"/></svg>
+          </button>
+        </div>
+
+        <div class="tree-item">
+          <button class="tree-toggle">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <a href="index.html" class="tree-content">
+            <div class="tree-info">
+              <span class="tree-name"><strong>Secretaria do Meio Ambiente</strong> <span class="tree-sigla">SMMA</span></span>
+              <div class="tree-meta">
+                <span>Cód <strong>6976</strong></span>
+                <span class="tree-separator">|</span>
+                <span>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="2" y="2" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.2"/><path d="M5 5H9M5 7H9M5 9H7" stroke="currentColor" stroke-width="1.2"/></svg>
+                  <strong>720</strong> estruturas vinculadas
+                </span>
+                <span class="tree-separator">|</span>
+                <span>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="4" r="2" stroke="currentColor" stroke-width="1.2"/><path d="M3 12C3 9.5 5 8 7 8C9 8 11 9.5 11 12" stroke="currentColor" stroke-width="1.2"/></svg>
+                  <strong>1.234</strong> pessoas ativas
+                </span>
+              </div>
+            </div>
+          </a>
+          <button class="tree-menu-btn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="3" r="1" fill="currentColor"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="8" cy="13" r="1" fill="currentColor"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span class="footer-version">Versão 114.0</span>
+    <div class="footer-logo">
+      <span class="footer-sp">SP</span>
+      <div class="footer-gov">
+        <strong>SÃO PAULO</strong>
+        <small>GOVERNO DO ESTADO</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
