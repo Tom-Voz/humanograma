@@ -2,9 +2,10 @@
 
 **Sistema:** Humanograma  
 **Módulo:** Gestão de Pessoas  
-**Versão:** 1.1  
+**Versão:** 1.2  
 **Data:** 15/04/2026  
-**Atualização:** Aplicado UI Kit SP.GOV.BR e Manual de Tom e Voz
+**Atualização:** Correções de dados + Deploy Vercel  
+**URL:** https://humanograma.vercel.app/colaborador-vinculado.html
 
 ---
 
@@ -128,10 +129,12 @@ Tela que exibe as informações completas de uma pessoa vinculada a estruturas o
 
 | Campo | Tipo | Formato | Visibilidade |
 |-------|------|---------|--------------|
-| CPF | Texto | XXX.XXX.XXX-XX | Mascarado por padrão |
-| RG | Texto | XX.XXX.XXX-X | Sempre visível |
+| CPF | Texto | •••.XXX.XXX-•• | Mascarado por padrão, com botão para revelar |
 | Data de nascimento | Data | DD/MM/AAAA | Sempre visível |
-| E-mail institucional | E-mail | email@sp.gov.br | Sempre visível |
+| Nome civil | Texto | Nome completo | Sempre visível |
+| Nome social | Texto | Nome ou "Não informado" | Sempre visível |
+| Contato pessoal | Lista | Telefone, celular, e-mail | Sempre visível |
+| Contato corporativo | Lista | Telefone, celular, e-mail | Sempre visível |
 
 ### 4.3 Máscara de CPF
 
@@ -603,3 +606,5 @@ Timeline exibe no máximo 5 itens, ordenados do mais recente ao mais antigo.
 | Versão | Data | Autor | Alterações |
 |--------|------|-------|------------|
 | 1.0 | 15/04/2026 | - | Versão inicial |
+| 1.1 | 15/04/2026 | - | UI Kit SP.GOV.BR + Manual de Tom e Voz + Acessibilidade |
+| 1.2 | 15/04/2026 | - | Correção de campos (Nome civil, Contatos) + Deploy Vercel |

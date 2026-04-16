@@ -2,9 +2,10 @@
 
 **Sistema:** Humanograma  
 **Módulo:** Gestão Organizacional  
-**Versão:** 1.1  
+**Versão:** 1.2  
 **Data:** 15/04/2026  
-**Atualização:** Aplicado UI Kit SP.GOV.BR e Manual de Tom e Voz
+**Atualização:** Correções + Deploy Vercel  
+**URL:** https://humanograma.vercel.app/index.html
 
 ---
 
@@ -494,3 +495,5 @@ Transferência só é permitida para estruturas ativas.
 | Versão | Data | Autor | Alterações |
 |--------|------|-------|------------|
 | 1.0 | 15/04/2026 | - | Versão inicial |
+| 1.1 | 15/04/2026 | - | UI Kit SP.GOV.BR + Manual de Tom e Voz + Acessibilidade |
+| 1.2 | 15/04/2026 | - | Deploy no Vercel + URLs de acesso |

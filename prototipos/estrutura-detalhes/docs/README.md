@@ -3,7 +3,24 @@
 **Sistema:** Humanograma  
 **Módulo:** Gestão Organizacional  
 **Última atualização:** 15/04/2026  
-**Versão:** 1.1 - Atualizado com UI Kit e Manual de Tom e Voz
+**Versão:** 1.2 - Deploy no Vercel + Correções
+
+---
+
+## Acesso aos Protótipos
+
+### Produção (Vercel)
+
+| Página | URL |
+|--------|-----|
+| Detalhes da Estrutura | https://humanograma.vercel.app/index.html |
+| Detalhes da Pessoa | https://humanograma.vercel.app/colaborador-vinculado.html |
+| Gestão de Estrutura | https://humanograma.vercel.app/gestao-estrutura.html |
+| Editar Estrutura | https://humanograma.vercel.app/editar-estrutura.html |
+
+### Repositório
+
+- **GitHub:** https://github.com/Tom-Voz/humanograma
 
 ---
 
@@ -13,8 +30,8 @@
 
 | Documento | Descrição | Versão | Status |
 |-----------|-----------|--------|--------|
-| [Detalhes da Estrutura](./especificacao-detalhes-estrutura.md) | Especificação da página de detalhes de estrutura | 1.1 | ✅ Atualizado |
-| [Detalhes da Pessoa](./especificacao-detalhes-pessoa.md) | Especificação da página de detalhes de pessoa | 1.1 | ✅ Atualizado |
+| [Detalhes da Estrutura](./especificacao-detalhes-estrutura.md) | Especificação da página de detalhes de estrutura | 1.2 | ✅ Atualizado |
+| [Detalhes da Pessoa](./especificacao-detalhes-pessoa.md) | Especificação da página de detalhes de pessoa | 1.2 | ✅ Atualizado |
 
 ### Guias de Design
 
@@ -22,8 +39,15 @@
 |-----------|-----------|--------|--------|
 | [UX Writing](./ux-writing-humanograma.md) | Guia de redação para interfaces | 1.0 | ✅ Concluído |
 
-### Changelog v1.1
+### Changelog
 
+#### v1.2 (15/04/2026)
+- Deploy no Vercel
+- Correção do nome civil na página de pessoa
+- Ajuste do campo CPF com botão de revelar inline
+- Atualização das URLs de acesso
+
+#### v1.1
 - Aplicado design tokens (cores, espaçamentos, tipografia)
 - Implementada acessibilidade completa (ARIA, roles, semântica HTML5)
 - Textos revisados conforme Manual de Tom e Voz SP.GOV.BR
