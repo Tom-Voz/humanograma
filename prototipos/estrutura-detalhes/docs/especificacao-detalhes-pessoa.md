@@ -129,12 +129,16 @@ Tela que exibe as informações completas de uma pessoa vinculada a estruturas o
 
 | Campo | Tipo | Formato | Visibilidade |
 |-------|------|---------|--------------|
-| CPF | Texto | •••.XXX.XXX-•• | Mascarado por padrão, com botão para revelar |
+| CPF | Texto | XXX.XXX.XXX-XX | Mascarado parcialmente |
 | Data de nascimento | Data | DD/MM/AAAA | Sempre visível |
 | Nome civil | Texto | Nome completo | Sempre visível |
-| Nome social | Texto | Nome ou "Não informado" | Sempre visível |
+| Nome social | Texto | Nome ou "-" se vazio | Sempre visível |
 | Contato pessoal | Lista | Telefone, celular, e-mail | Sempre visível |
 | Contato corporativo | Lista | Telefone, celular, e-mail | Sempre visível |
+
+### 4.3 Layout
+
+Os campos são exibidos em grid de 4 colunas (responsivo para 2 colunas em tablet e 1 em mobile).
 
 ### 4.3 Máscara de CPF
 
@@ -179,7 +183,16 @@ Lista de todos os vínculos da pessoa (ativos e inativos), cada um em um card ex
 |--------|-----|--------|
 | Em exercício | Verde | #2e7d32 |
 | Em atribuição | Amarelo | #f9a825 |
-| Inativo | Cinza | #9e9e9e |
+| Exonerado/Inativo | Vermelho | #c62828 |
+
+### 5.4 Status do Vínculo
+
+| Status técnico | Label exibido | Badge |
+|----------------|---------------|-------|
+| `em_exercicio` | "● Em exercício" | Verde |
+| `em_atribuicao` | (sem badge, apenas indicador) | Amarelo |
+| `exonerado` | "● Exonerado" | Vermelho |
+| `inativo` | "● Inativo" | Cinza |
 
 ### 5.4 Card de Vínculo - Expandido
 
